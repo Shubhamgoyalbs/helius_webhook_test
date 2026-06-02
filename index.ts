@@ -12,7 +12,7 @@ app.post("/webhook", async (req, res) => {
     console.log("Headers:", req.headers);
     console.log(
         "Body:",
-        JSON.stringify(req, null, 2)
+        JSON.stringify(req.body, null, 2)
     );
     console.log("=================================");
 
