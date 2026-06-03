@@ -3,7 +3,7 @@ import { Program } from "@coral-xyz/anchor";
 import type { CounterPda } from "./counter_pda";
 import * as anchor from "@coral-xyz/anchor";
 import bs58 from "bs58";
-import idl from "./counter_pda.json";
+import idl from "./counter_pda.json" with { type: "json" };
 
 const connection = new anchor.web3.Connection("https://api.devnet.solana.com");
 const secretKey = bs58.decode(
