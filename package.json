@@ -10,7 +10,9 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@coral-xyz/anchor": "^0.32.1",
     "@types/express": "^5.0.6",
+    "bs58": "^6.0.0",
     "express": "^5.2.1"
   }
 }
